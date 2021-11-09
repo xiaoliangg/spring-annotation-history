@@ -13,7 +13,7 @@ spring注解驱动的发展历史
 
 2、Spring 1.x 只有一个@Transaction 注解，整个项目的IOC都是通过xml配置文件来完成。
 
-源码demo: [spring-annotaion-history-1x](https://github.com/xiaoliangg/spring-annotation-history/tree/main/spring-annotaion-history-1x)
+源码demo: [spring-annotation-history-1x](https://github.com/xiaoliangg/spring-annotation-history/tree/main/spring-annotation-history-1x)
 
 其他:[Spring 1.x中AOP的使用](https://blog.csdn.net/iteye_18357/article/details/81520981)
 
@@ -56,3 +56,8 @@ spring 2.5
 Spring AOP使用纯Java实现,不需要专门的编译过程和类加载器,在运行期通过代理方式向目标类织入增强代码.
 
 2.0之后, 为了简化AOP开发, Spring开始支持AspectJ(一个基于Java的AOP框架)框架.
+
+## spring 3.x 版本
+
+@configuration 去xml化
+
