@@ -57,7 +57,31 @@ Spring AOP使用纯Java实现,不需要专门的编译过程和类加载器,在�
 
 2.0之后, 为了简化AOP开发, Spring开始支持AspectJ(一个基于Java的AOP框架)框架.
 
+源码demo:[spring-annotation-history-2x](https://github.com/xiaoliangg/spring-annotation-history/tree/main/spring-annotation-history-2x)
+
+其他:[Spring配置文件详解：<context:annotation-config/>和<context:component-scan base-package=""/>和<mvc:annotation-driven />](https://www.cnblogs.com/lcngu/p/5080702.html)
+
+
+
 ## spring 3.x 版本
 
-@configuration 去xml化
+@configuration 完全去xml化
+
+* @Configuration
+* @Import
+* @ComponentScan
+
+> 核心目的是：把bean对象如何更加便捷的方式去加载到Spring IOC容器中
+
+相关注解:
+
+```
+1、@Bean做依赖注入
+2、@Configuration 标记此文件用于bean配置
+3、@Import 引入其他配置
+4、两种方式声明bean:注解+扫描包声明;@Configuration和@Bean配合声明
+5、AnnotationConfigApplicationContext
+```
+
+源码demo:[spring-annotation-history-3x](https://github.com/xiaoliangg/spring-annotation-history/tree/main/spring-annotation-history-3x)
 
